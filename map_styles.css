@@ -1,0 +1,26 @@
+	body {
+			/* Add image */
+			background-image: url("old_map.jpg");
+  
+			/* Make image center */
+			background-position: center center;
+  
+			/* Make image fixed */
+			background-attachment: fixed;
+  
+			/* Not repeat images */
+			background-repeat: no-repeat;
+	
+			/* Set background size auto */
+			background-size: auto;
+			}
+  
+  
+			/* Media query for mobile devices  */
+			@media only screen and (max-width: 767px)
+			{
+			body {
+			background-image: url(
+			"old_map.jpg");
+			}
+		}
